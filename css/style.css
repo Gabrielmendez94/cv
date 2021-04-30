@@ -1,0 +1,57 @@
+.header {
+    height: 50vh;
+    background-image: url("../images/notebook.jpg");
+    background-size: cover;
+}
+
+p {
+    font-size: 18px;
+}
+
+.perfil {
+    border-radius: 50%;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.perfil:hover {
+    transform: scale(1.3);
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+.icono {
+    font-size: 48px;
+    color: white;
+}
+
+.icono:hover {
+    transform: scale(1.5) rotate(360deg);
+    transition-duration: 400ms;
+    opacity: 0.9;
+    transition-timing-function: ease-in-out;
+}
+
+.frase {
+    background: #e8ced4;
+    height: auto;
+}
+
+.frase-texto {
+    color: #2f58a5;
+    font-size: 32px;
+}
+
+.footer {
+    color: white;
+    height: auto;
+}
+
+textarea {
+    resize: none;
+}
+
+.fondo-notebook {
+    background-image: url("../images/notebook.jpg");
+    background-size: cover;
+}
